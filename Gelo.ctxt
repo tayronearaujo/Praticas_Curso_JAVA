@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Gelo
+comment1.params=
+comment1.target=void\ Atacar()
+comment2.params=ataqueDecorado
+comment2.target=Gelo(Atacar)
+numComments=3

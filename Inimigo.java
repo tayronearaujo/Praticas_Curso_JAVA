@@ -1,16 +1,16 @@
-import java.util.Observable;
 import java.util.Observer;
+import java.util.Observable;
 
-public class Inimigo implements Observer {
-
-    private int x = 0;
-    private int y = 0;
-
-    public Inimigo(int x, int y) {
+public class Inimigo implements Observer
+{
+   private int x;
+    private int y;
+    
+    public Inimigo(int x, int y){
         this.x = x;
         this.y = y;
     }
-
+    
     public void update(Observable subject, Object args) {
         Personagem personagem = (Personagem)subject;
 

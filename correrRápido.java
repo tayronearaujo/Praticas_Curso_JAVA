@@ -1,8 +1,9 @@
 
-public class correrRápido extends Correr 
-{
-    public void correr(){
 
- }
+public class correrRápido extends Correr
+{
+   public void Correr(){
     
+    
+    }
 }

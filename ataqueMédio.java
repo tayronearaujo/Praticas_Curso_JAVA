@@ -1,8 +1,7 @@
-
-public class ataqueMédio implements Ataque
+public class ataqueMédio extends Atacar
 {
-    ataqueMédio(){
-    setDamage(3);
-    setDescricao("Ataque Médio");
+ public void Atacar(){
+     
  }
+    
 }

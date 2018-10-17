@@ -1,9 +1,8 @@
 
-public class ataqueFraco implements Ataque
-{  
-    ataqueFraco(){
-     setDamage(1);
-     setDescricao("Ataque Fraco");
-    
-    }
+public class ataqueFraco extends Atacar
+{
+ public void Atacar(){
+     
+ }
+
 }

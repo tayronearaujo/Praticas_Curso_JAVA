@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Personagem1
-comment1.params=life\ x\ y
-comment1.target=Personagem1(int,\ int,\ int)
+comment1.params=x\ y
+comment1.target=Personagem1(int,\ int)
 numComments=2

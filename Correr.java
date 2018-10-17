@@ -1,5 +1,7 @@
 
-public abstract class Correr 
+
+public abstract class Correr
 {
-    public abstract void correr();
+    public abstract void Correr();
+    
 }

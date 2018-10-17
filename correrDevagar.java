@@ -1,7 +1,6 @@
 
-public class correrDevagar extends Correr 
+public class correrDevagar extends Correr
 {
-    public void correr(){
-
- }
+   public void Correr(){
+    }
 }
