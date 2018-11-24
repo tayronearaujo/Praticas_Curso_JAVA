@@ -8,9 +8,10 @@ public class Main
         
         //TESTANDO COM FABRICA SIMPLES
         Personagem p = PersonagemSimpleFactory.createPersonagem();
-            
-        if(p != null)
+         //Personagem fab = PersonagemFactory.createPersonagem("simple");  
+        if(p != null){
             System.out.println("Foi criado");
+            System.out.println("Tipo :" + p);}
         else 
             System.out.println("Erro");
         

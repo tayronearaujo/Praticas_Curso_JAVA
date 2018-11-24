@@ -1,7 +1,15 @@
 
-public class PersonagemSimpleFactory
+public class PersonagemSimpleFactory extends PersonagemFactory
 {
+    //padrao singleton
+    private static PersonagemSimpleFactory instancia = new PersonagemSimpleFactory();
+    
     private PersonagemSimpleFactory() {}
+    
+    public static PersonagemSimpleFactory getInstancia(){
+        return instancia;    
+    }
+    
     
     public static Personagem createPersonagem(){
         double tipo = Math.random();
