@@ -2,16 +2,16 @@
 public class escudoFogo extends Defesa
 {
     public void processaDefesa(Personagem p, Atacar ataque){
-            Atacar teste = ataque;
-        if(teste.getDescricao() == ataque.getDescricao()){
+       Atacar a = ataque;
+    	if(a.getDescricao() == a.getDescricao()){
         
-            System.out.println(ataque.getDamage() - 100);
-        
-        }
-                        
-    else {
-            getsucessor().processaDefesa(p,ataque);
-        }
+    		System.out.println(a.getDamage() -30);
+		
+    	}
+        		  	   	
+ 	else {
+    		getsucessor().processaDefesa(p,ataque);
+    	}
     
     }
 }

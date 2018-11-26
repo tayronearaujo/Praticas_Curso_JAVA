@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Defesa
+comment1.params=sucessor
+comment1.target=void\ setSucessor(Defesa)
+comment2.params=
+comment2.target=Defesa\ getsucessor()
+comment3.params=p\ ataque
+comment3.target=void\ processaDefesa(Personagem,\ Atacar)
+numComments=4

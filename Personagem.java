@@ -15,7 +15,8 @@ public abstract class Personagem extends Observable
    public void setStrategy(Atacar a, Correr c, Pular p){
        this.a = a;
        this.c = c;
-       this.p = p; 
+       this.p = p;
+       
     }
     
    public Personagem(int x, int y)
@@ -46,6 +47,17 @@ public abstract class Personagem extends Observable
     {
         return this.a;
     }
+    
+    public void setPular(Pular p)
+    {
+        this.p = p;
+    }
+    
+    public void setCorrer(Correr c)
+    {
+        this.c = c;
+    }
+   
     
    public void Correr(){
      c.Correr();    

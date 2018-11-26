@@ -7,7 +7,7 @@ public abstract class PersonagemFactory
         
         if(tipo.equals("simple"))
             return PersonagemSimpleFactory.createPersonagem();
-         else if(tipo.equals("advanced"))
+        else if(tipo.equals("advanced"))
             return AdvancedFactory.criarPersonagem();
             
             else 
