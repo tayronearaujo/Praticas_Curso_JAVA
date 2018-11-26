@@ -9,7 +9,7 @@ public abstract class Personagem extends Observable
    private int x;
    private int y;
    private int life;
-   
+ 
    private Defesa d;
    
    public void setStrategy(Atacar a, Correr c, Pular p){

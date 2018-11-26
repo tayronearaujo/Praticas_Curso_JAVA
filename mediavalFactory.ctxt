@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=mediavalFactory
+comment1.params=
+comment1.target=mediavalFactory()
+comment2.params=
+comment2.target=mediavalFactory\ getInstancia()
+comment3.params=
+comment3.target=Personagem\ criarHeroi()
+comment4.params=
+comment4.target=Inimigo\ criarInimigo()
+numComments=5

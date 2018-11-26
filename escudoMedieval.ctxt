@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=escudoMedieval
+comment1.params=p\ ataque
+comment1.target=void\ processaDefesa(Personagem,\ Atacar)
+numComments=2

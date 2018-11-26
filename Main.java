@@ -7,16 +7,27 @@ public class Main
         //Personagem3 personagem3 = new Personagem3();
         
         //TESTANDO COM FABRICA SIMPLES
-        Personagem p = PersonagemSimpleFactory.createPersonagem();
+        //Personagem p = PersonagemSimpleFactory.createPersonagem();
          //Personagem fab = PersonagemFactory.createPersonagem("simple");  
-        if(p != null){
-            System.out.println("Foi criado");
-            System.out.println("Tipo :" + p);}
-        else 
-            System.out.println("Erro");
+        //if(p != null){
+            //System.out.println("Foi criado");
+            //System.out.println("Tipo :" + p);}
+        //else 
+           // System.out.println("Erro");
         
         
+        abstractFactory criar = futuristaFactory.getInstancia();
+              
+        if(criar != null){
+            System.out.println("Foi criado fututista " + criar);
+        }
         
+        abstractFactory criar2 = mediavalFactory.getInstancia();
+        if(criar2 != null){
+            System.out.println("Foi criado medieval" + criar2);
+        }
+        //Inimigo i1 = new Inimigo(0,0);
+        //Inimigo i2 = new Inimigo(0,0);
         
         
 
