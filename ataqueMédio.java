@@ -6,7 +6,7 @@ public class ataqueMédio extends Atacar
  
  ataqueMédio(){
      setDamage(30);
-     setDescricao("ataque decorafo");
+     setDescricao("Ataque decorado");
     }
     
 }

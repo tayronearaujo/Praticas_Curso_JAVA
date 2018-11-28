@@ -2,4 +2,6 @@
 comment0.target=ataqueM\u00E9dio
 comment1.params=
 comment1.target=void\ Atacar()
-numComments=2
+comment2.params=
+comment2.target=ataqueM\u00E9dio()
+numComments=3

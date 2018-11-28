@@ -7,6 +7,6 @@ public class ataqueForte extends Atacar
  
  ataqueForte(){
      setDamage(50);
-     setDescricao("ataque decorado");
+     setDescricao("Ataque decorado");
     }
 }
